@@ -44,5 +44,19 @@ public class LinkedList{
             current = current.next;
         }
     }
-}
+    public void deleteHead(){
+        head.next=null;
+        head = head.next;
+    }
+    public void delete_element(int data){
+        if (head == null) {
+            return;
+        }
+        if (head.data == data) {
+            head = head.next;
+            return;
+        }
+        Node current = head;
+        // 
+    }
 
