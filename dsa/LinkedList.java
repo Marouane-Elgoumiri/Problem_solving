@@ -1,23 +1,24 @@
-class Node{
+class Node {
     int data;
     Node next;
 
-    public Node(int data){
+    public Node(int data) {
         this.data = data;
         this.next = null;
     }
 }
 
-public class LinkedList{
+public class LinkedList {
     Node head;
     Node tail;
 
-    public LinkedList(){
+    public LinkedList() {
         this.head = null;
         this.tail = null;
-        
+
     }
-    public void append(int data){
+
+    public void append(int data) {
         Node newNode = new Node(data);
         if (head.next == null) {
             head = newNode;
@@ -27,9 +28,10 @@ public class LinkedList{
         tail.next = newNode;
         tail = newNode;
     }
-    public void prepend(int data){
+
+    public void prepend(int data) {
         Node newNode = new Node(data);
-        if(head.next == null){
+        if (head.next == null) {
             head = newNode;
             tail = newNode;
             return;
@@ -37,18 +39,21 @@ public class LinkedList{
         newNode.next = head;
         head = newNode;
     }
-    public void interate(int data){
+
+    public void interate(int data) {
         Node current = head;
-        while(current != null){
+        while (current != null) {
             System.out.println(current.data + " ");
             current = current.next;
         }
     }
-    public void deleteHead(){
-        head.next=null;
+
+    public void deleteHead() {
+        head.next = null;
         head = head.next;
     }
-    public void delete_element(int data){
+
+    public void delete_element(int data) {
         if (head == null) {
             return;
         }
@@ -56,17 +61,17 @@ public class LinkedList{
             head = head.next;
             return;
         }
-                Node current = head;
-                while(current.next != null){
-                    if(current.next.data == data){
-                        current.next = current.next.next;
-                        if(current.next == null){
-                            tail = current;
-                        }
-                        return;
-                    }
-                    current = current.next;
+        
+        Node current = head;
+        while (current.next != null) {
+            if (current.next.data == data) {
+                current.next = current.next.next;
+                if (current.next == null) {
+                    tail = current;
                 }
+                return;
             }
-        } 
-
+            current = current.next;
+        }
+    }
+}
