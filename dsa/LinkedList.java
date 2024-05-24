@@ -43,7 +43,7 @@ public class LinkedList {
     public void interate(int data) {
         Node current = head;
         while (current != null) {
-            System.out.println(current.data + "  ");
+            System.out.println(current.data + " ");
             current = current.next;
         }
     }
@@ -61,17 +61,14 @@ public class LinkedList {
             head = head.next;
             return;
         }
-
         Node current = head;
-        while (current.next != null) {
-            if (current.next.data == data) {
-                current.next = current.next.next;
-                if (current.next == null) {
-                    tail = current;
-                }
+        while (current != null) {
+            if (current.data == data) {
+                current.next = null;
+                current = current.next.next;
                 return;
             }
-            current = current.next;
         }
+
     }
 }
