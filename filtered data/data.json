@@ -1,0 +1,113 @@
+
+[
+    {
+        "id": 1,
+        "name": "Ergonomic Keyboard",
+        "category": "Electronics",
+        "subcategory": "Computer Peripherals",
+        "brand": "TechComfort",
+        "price": 129.99,
+        "discount_percentage": 10,
+        "stock_quantity": 50,
+        "last_restocked_date": "2024-07-15",
+        "average_rating": 4.5,
+        "num_reviews": 120,
+        "weight_kg": 0.8,
+        "dimensions": {
+            "length_cm": 45,
+            "width_cm": 15,
+            "height_cm": 2
+        },
+        "is_wireless": "True",
+        "color": "Black",
+        "warranty_years": 2
+    },
+    {
+        "id": 2,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "subcategory": "Computer Peripherals",
+        "brand": "TechGlide",
+        "price": 49.99,
+        "discount_percentage": 0,
+        "stock_quantity": 100,
+        "last_restocked_date": "2024-07-20",
+        "average_rating": 4.2,
+        "num_reviews": 85,
+        "weight_kg": 0.1,
+        "dimensions": {
+            "length_cm": 10,
+            "width_cm": 6,
+            "height_cm": 3
+        },
+        "is_wireless": "True",
+        "color": "Silver",
+        "warranty_years": 1
+    },
+    {
+        "id": 3,
+        "name": "Office Chair",
+        "category": "Furniture",
+        "subcategory": "Seating",
+        "brand": "ComfortPlus",
+        "price": 199.99,
+        "discount_percentage": 15,
+        "stock_quantity": 30,
+        "last_restocked_date": "2024-06-30",
+        "average_rating": 4.7,
+        "num_reviews": 200,
+        "weight_kg": 15,
+        "dimensions": {
+            "length_cm": 60,
+            "width_cm": 60,
+            "height_cm": 110
+        },
+        "is_wireless": "False",
+        "color": "Gray",
+        "warranty_years": 5
+    },
+    {
+        "id": 4,
+        "name": "Standing Desk",
+        "category": "Furniture",
+        "subcategory": "Desks",
+        "brand": "ErgoStand",
+        "price": 299.99,
+        "discount_percentage": 5,
+        "stock_quantity": 20,
+        "last_restocked_date": "2024-07-10",
+        "average_rating": 4.8,
+        "num_reviews": 150,
+        "weight_kg": 40,
+        "dimensions": {
+            "length_cm": 120,
+            "width_cm": 80,
+            "height_cm": 75
+        },
+        "is_wireless": "False",
+        "color": "White",
+        "warranty_years": 3
+    },
+    {
+        "id": 5,
+        "name": "Laptop Stand",
+        "category": "Accessories",
+        "subcategory": "Laptop Accessories",
+        "brand": "TechElevate",
+        "price": 39.99,
+        "discount_percentage": 0,
+        "stock_quantity": 75,
+        "last_restocked_date": "2024-07-25",
+        "average_rating": 4.3,
+        "num_reviews": 60,
+        "weight_kg": 0.5,
+        "dimensions": {
+            "length_cm": 25,
+            "width_cm": 25,
+            "height_cm": 15
+        },
+        "is_wireless": "False",
+        "color": "Black",
+        "warranty_years": 1
+    }
+]
