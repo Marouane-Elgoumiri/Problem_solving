@@ -52,7 +52,19 @@ public class LinkedList {
         head.next = null;
         head = head.next;
     }
-
+    public void deleteTail(){
+        if (head.next == null) {
+            head = null;
+            tail = null;
+            return;
+        }
+        Node current = head;
+        while(current.next.next!=null){
+            current = current.next;
+        }
+        current.next = null;
+        tail = current;
+    }
     public void delete_element(int data) {
         if (head == null) {
             return;
