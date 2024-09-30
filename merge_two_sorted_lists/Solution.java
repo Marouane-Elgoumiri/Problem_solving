@@ -1,8 +1,5 @@
 package merge_two_sorted_lists;
 
-import middle of a linkedlist.Solution.ListNode;
-
-public 
 
 public class ListNode {
     int val;
