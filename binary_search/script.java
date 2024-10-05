@@ -1,11 +1,15 @@
 package binary_search;
 
 public class script {
-    
-        public int search(int[] nums, int target) {
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,4,5,6,7,8,9};
+        int target = 9;
+        System.out.println(search(nums, target));
+    }
+    public static int search(int[] nums, int target) {
             int right =nums.length -1 ; int left =0;
             while(right >= left){
-                int m = left + (right - left)/2;
+                int m = Math.floorDiv(left + right, 2);
                 if(target == nums[m]){
                     return m;
                 }
@@ -16,5 +20,5 @@ public class script {
                 }
             }
             return -1;
-        }
+    }
 }
