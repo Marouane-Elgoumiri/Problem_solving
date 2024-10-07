@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "script",
+            "request": "launch",
+            "mainClass": "script",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
+            "type": "java",
+            "name": "AnagramChecker",
+            "request": "launch",
+            "mainClass": "Anagrams.AnagramChecker",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
             "type": "rdbg",
             "name": "Debug current file with rdbg",
             "request": "launch",
