@@ -12,7 +12,7 @@ class Solution {
             if(map.containsKey(nums[i])){
                 return true;
             } 
-            map.put(nums[i], false);
+            map.put(nums[i], true);
         }
         return false;
     }
