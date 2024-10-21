@@ -1,3 +1,5 @@
+package LinkedLists;
+
 class Node {
     int data;
     Node next;
@@ -81,6 +83,5 @@ public class LinkedList {
                 return;
             }
         }
-
     }
 }
