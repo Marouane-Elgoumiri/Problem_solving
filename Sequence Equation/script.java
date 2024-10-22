@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main { 
+public class script { 
     public static void main(String[] args){
         List<Integer> p = new ArrayList<>();
         p.add(5);
