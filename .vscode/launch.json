@@ -8,6 +8,13 @@
             "type": "java",
             "name": "script",
             "request": "launch",
+            "mainClass": "binary_search.script",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
+            "type": "java",
+            "name": "script",
+            "request": "launch",
             "mainClass": "script",
             "projectName": "Problem_solving_cc6c7d5a"
         },

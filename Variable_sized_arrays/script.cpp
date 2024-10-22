@@ -1,7 +1,8 @@
 /*
 Output Format
 
-For each pair of  and  values (i.e., for each query), print a single integer that denotes the element located at index  of the array referenced by . There should be a total of  lines of output.
+For each pair of  and  values (i.e., for each query), print a single integer that denotes the element located at index 
+of the array referenced by . There should be a total of  lines of output.
 
 Sample Input
 
