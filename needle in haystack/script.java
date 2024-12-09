@@ -1,8 +1,8 @@
 
 public class script {
     public static void main(String[] args) {
-        String haystack = "hello";
-        String needle = "ll";
+        String haystack = "herollorelo";
+        String needle = "ollo";
         System.out.println(strStr(haystack, needle));
     }
     public static int strStr(String haystack, String needle) {
