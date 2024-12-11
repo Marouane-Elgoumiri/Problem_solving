@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Script",
+            "request": "launch",
+            "mainClass": "Script",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
+            "type": "java",
             "name": "script",
             "request": "launch",
             "mainClass": "binary_search.script",
