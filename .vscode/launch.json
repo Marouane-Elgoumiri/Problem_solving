@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "child",
+            "request": "launch",
+            "mainClass": "child",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
+            "type": "java",
+            "name": "FreqStack",
+            "request": "launch",
+            "mainClass": "FreqStack",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
+            "type": "java",
+            "name": "Script",
+            "request": "launch",
+            "mainClass": "Script",
+            "projectName": "Problem_solving_cc6c7d5a"
+        },
+        {
+            "type": "java",
             "name": "script",
             "request": "launch",
             "mainClass": "binary_search.script",
